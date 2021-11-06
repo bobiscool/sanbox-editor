@@ -23,6 +23,11 @@ export default function App() {
       return {};
     }
 
+    function getAttributes() {
+      // box组件 支持 监听子组件所有变化触发
+      // form 对外暴露 submit
+      // dialog 对外暴露 打开
+    }
     return <Box styles={getComputedStyle}></Box>;
   }
 
